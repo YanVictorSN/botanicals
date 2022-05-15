@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    text-decoration: none;
+}
+body {
+    background-color:rgb(234, 234, 234);
+    background-image: url(../imgs/plant.png);
+    background-repeat: no-repeat;
+    background-position: 50% -3%;
+    background-size: 27em;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 5em;
+}
+#logopage {
+    padding: 1em;
+}
+#navbar {
+    padding: 1em;
+}
+.itensnavbar {
+    padding-right:1em ;
+    color:black;
+    font-size: 17px;
+}
+main {
+    display: flex;
+    height: 87vh;
+}
+#leftside {
+    display: flex;
+    width: 50%;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 9em;
+}
+#maintext {
+    font-size: 70px;
+}
+#leftbutton {
+    width: 14em;
+    height: 3em;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(to right, #cedae2 , #f9fcff);
+    font-weight: 600;
+    margin-bottom:4em;
+    margin-top: 4em;
+}
+#rightside {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12em;
+    height: 12em;
+    border-radius: 50%;
+    background-color: rgb(219, 212, 212);
+    margin-top: 6em;
+}
+#rightbutton {
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    border: none;
+    color: rgb(192, 185, 185);
+    box-shadow: 10px 5px 5px rgb(107, 102, 102);
+}
